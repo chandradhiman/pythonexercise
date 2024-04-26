@@ -1,5 +1,5 @@
 def school (result =None):
-    if result in ("10%", "20%", "30%"):
+    if result in (0-30, "10%", "20%", "30%"):
         school = "Sorry! result is failed"
     elif result in ("40%", "50%", "60%"):
         school ="Congrts You passed with C grade."
