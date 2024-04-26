@@ -12,7 +12,7 @@ def school (result =None):
 
     return school
 print("Please enter valid argument in between 10%-100%")
-a = str(input("Enter number: "))
+a = str(input("Enter Your Marks: "))
 
 hello = school(a)
 print (hello)
